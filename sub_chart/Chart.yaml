@@ -1,5 +1,5 @@
 apiVersion: v2
-name: workshop-test
+name: korensh-hello-world
 description: A Helm chart for Kubernetes
 type: application
 dependencies:
@@ -7,10 +7,6 @@ dependencies:
     repository: oci://ghcr.io/korenshemer/helm
     version: "1.0.0"
     alias: deploy1
-  - name: workshop-test
-    repository: "oci://ghcr.io/korenshemer/helm"
-    version: 1.0.1
-    alias: deploy2
 version: 1.0.0
 appVersion: "1.0.0"
 
