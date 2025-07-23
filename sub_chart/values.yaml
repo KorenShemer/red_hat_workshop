@@ -9,3 +9,14 @@ deploy1:
 
   service:
       servicePort: 8080
+      
+deploy2: 
+  ReplicaNumber: 1
+
+  containers:
+      containerPort: 8080
+      image: 'quay.io/korensh/red_hat_ws'
+      tag: 'chart_v2'
+
+  service:
+      servicePort: 8080

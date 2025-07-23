@@ -1,0 +1,6 @@
+dependencies:
+- name: korensh-hello-world
+  repository: oci://ghcr.io/korenshemer/helm
+  version: 1.0.0
+digest: sha256:32dd70787c6e7a5dd0f46d4dbb9a8fc8f374d92c2d2613af76ff198cb6dad903
+generated: "2025-07-23T11:47:03.992003577Z"
